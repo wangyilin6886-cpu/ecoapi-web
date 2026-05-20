@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { routing, type Locale } from '@/i18n/routing';
+import SmoothScrollProvider from '@/components/layout/SmoothScrollProvider';
 import '../globals.css';
 
 const inter = Inter({
@@ -12,20 +13,13 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
+export const metadata: Metadata = {
+  title: 'EcoAPI',
+  description: 'EcoAPI · LLM API gateway',
+};
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
-}
-
-export async function generateMetadata({
-  params: { locale },
-}: {
-  params: { locale: string };
-}): Promise<Metadata> {
-  const t = await getTranslations({ locale, namespace: 'meta' });
-  return {
-    title: t('title'),
-    description: t('description'),
-  };
 }
 
 export default async function LocaleLayout({
@@ -44,9 +38,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={inter.variable}>
-      <body>
+      <body className="bg-[var(--bg-primary)] font-sans text-[var(--text-primary)]">
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <SmoothScrollProvider>{children}</SmoothScrollProvider>
         </NextIntlClientProvider>
       </body>
     </html>

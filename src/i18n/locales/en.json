@@ -1,0 +1,8 @@
+{
+  "nav": {
+    "home": "Home",
+    "profile": "Profile",
+    "topup": "Top Up",
+    "login": "Login"
+  }
+}
