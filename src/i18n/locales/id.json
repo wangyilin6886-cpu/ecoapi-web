@@ -4,5 +4,16 @@
     "profile": "Profil",
     "topup": "Isi Ulang",
     "login": "Masuk"
+  },
+  "hero": {
+    "tagline": "ECOAPI · LLM GATEWAY",
+    "title1": "Serba Satu",
+    "title2": "Antarmuka Cerdas",
+    "subtitle": "Satu API · Akses 100+ LLM terkemuka di dunia",
+    "description": "Harga lebih hemat, lebih stabil, tanpa langganan",
+    "placeholder": "Mulai percakapan, coba model apa pun...",
+    "cta1": "Coba gratis",
+    "cta2": "Baca dokumen",
+    "trust": "Dipercaya 10.000+ developer"
   }
 }

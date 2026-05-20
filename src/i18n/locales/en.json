@@ -4,5 +4,16 @@
     "profile": "Profile",
     "topup": "Top Up",
     "login": "Login"
+  },
+  "hero": {
+    "tagline": "ECOAPI · LLM GATEWAY",
+    "title1": "All-in-One",
+    "title2": "AI Interface",
+    "subtitle": "One API · Access 100+ leading LLMs worldwide",
+    "description": "Better pricing, rock-solid uptime, no subscription",
+    "placeholder": "Start a conversation, try any model...",
+    "cta1": "Try for free",
+    "cta2": "Read the docs",
+    "trust": "Trusted by 10,000+ developers"
   }
 }
