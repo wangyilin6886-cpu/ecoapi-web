@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title": "EcoAPI · One Gateway for Every LLM",
+    "description": "EcoAPI gives developers a stable, low-cost and observable aggregation gateway for large language model APIs."
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "docs": "Docs",
+    "console": "Console"
+  },
+  "hero": {
+    "badge": "Now Live",
+    "title": "One key, every leading LLM",
+    "subtitle": "EcoAPI aggregates the major LLM providers behind a single gateway with a more reliable route, lower prices and full usage observability.",
+    "ctaPrimary": "Start for free",
+    "ctaSecondary": "Read the docs"
+  }
+}

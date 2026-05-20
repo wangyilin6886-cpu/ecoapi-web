@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title": "EcoAPI · Satu Gerbang untuk Semua LLM",
+    "description": "EcoAPI memberi developer gateway agregasi API model bahasa besar yang stabil, hemat biaya, dan dapat dipantau."
+  },
+  "nav": {
+    "features": "Fitur",
+    "pricing": "Harga",
+    "docs": "Dokumen",
+    "console": "Konsol"
+  },
+  "hero": {
+    "badge": "Telah Hadir",
+    "title": "Satu kunci untuk semua LLM terbaik",
+    "subtitle": "EcoAPI menggabungkan penyedia LLM utama dalam satu gateway dengan jalur lebih andal, harga lebih murah, dan observabilitas penggunaan penuh.",
+    "ctaPrimary": "Mulai gratis",
+    "ctaSecondary": "Baca dokumen"
+  }
+}

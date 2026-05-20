@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title": "EcoAPI · 一站式 LLM API 中转站",
+    "description": "EcoAPI 为开发者提供稳定、低价、可观测的大模型 API 聚合中转服务。"
+  },
+  "nav": {
+    "features": "功能",
+    "pricing": "价格",
+    "docs": "文档",
+    "console": "控制台"
+  },
+  "hero": {
+    "badge": "全新上线",
+    "title": "一个密钥，畅连全球大模型",
+    "subtitle": "EcoAPI 聚合主流 LLM 服务,提供更稳定的链路、更低的价格与完整的用量观测。",
+    "ctaPrimary": "免费开始",
+    "ctaSecondary": "查看文档"
+  }
+}
